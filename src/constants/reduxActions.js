@@ -1,0 +1,9 @@
+export const UPDATE_USER_DOC = 'UPDATE_USER_DOC';
+export const DEL_USER_DOC = 'DEL_USER_DOC';
+export const UPDATE_TASKS = 'UPDATE_TASKS';
+export const DEL_TASKS = 'DEL_TASKS';
+export const UPDATE_LISTS = 'UPDATE_LISTS';
+export const DEL_LISTS = 'DEL_LISTS';
+export const UPDATE_AUTH_USER = 'UPDATE_AUTH_USER';
+export const DEL_AUTH_USER = 'DEL_AUTH_USER';
+export const UPDATE_SELECTED_LIST = 'UPDATE_SELECTED_LIST';

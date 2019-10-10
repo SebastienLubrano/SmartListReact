@@ -1,0 +1,248 @@
+.TaskOptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 700px;
+    height: auto;
+}
+
+.TaskOptionsListContainer {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px rgba(0,0,0,0.5);
+    background: #EEF0F1;
+    border: 1px solid #07689F;
+    display: inline-block;
+}
+
+.DropdownMain-root {
+    position: relative;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+  
+.DropdownMain-control {
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: #444444;
+  cursor: default;
+  outline: none;
+  padding: 12px 30px 12px 10px;
+  transition: all 200ms ease;
+}
+
+.DropdownMain-control:hover {
+  color: #07689F;
+}
+
+.DropdownMain-arrow {
+  border-color: #999 transparent transparent;
+  border-style: solid;
+  border-width: 5px 5px 0;
+  content: ' ';
+  display: block;
+  height: 0;
+  margin-top: -ceil(2.5);
+  position: absolute;
+  right: 15px;
+  top: 23px;
+  width: 0
+}
+
+.is-open .DropdownMain-arrow {
+  border-color: transparent transparent #999;
+  border-width: 0 5px 5px;
+}
+
+.DropdownMain-menu {
+  background-color: #EEF0F1;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  margin-top: -1px;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;
+  width: 200px;
+  z-index: 1000;
+  -webkit-overflow-scrolling: touch;
+}
+
+.DropdownMain-menu .DropdownMain-group > .DropdownMain-title{
+  padding: 8px 10px;
+  color: rgba(51, 51, 51, 1);
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.HideCompletedContainer {
+  margin: auto;
+  display: flex;
+  width: auto;
+  padding: 15px;
+}
+
+.HideCompletedContainer p {
+  font-size: 16px;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  color: #444444;
+  margin: auto;
+}
+
+
+.SwitchButton {
+  margin: auto;
+  margin-left: 10px;
+}
+
+.DropdownMain-option {
+  box-sizing: border-box;
+  color: #666666;
+  cursor: pointer;
+  display: block;
+  padding: 10px 15px;
+}
+
+.DropdownMain-menu {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.DropdownMain-option:last-child {
+  border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.DropdownMain-option:hover {
+  color: #07689F;
+}
+
+.DropdownMain-option.is-selected {
+  color: #07689F;
+}
+
+.DropdownMain-noresults {
+  box-sizing: border-box;
+  color: #ccc;
+  cursor: default;
+  display: block;
+  padding: 8px 10px;
+}
+
+.ListContainer2 {
+  width: 35%;
+  min-width: 275px;
+  max-width: 400px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 1px rgba(0,0,0,0.5);
+  background: #EEF0F1;
+  border: 1px solid #07689F;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ListContainer2 p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #444444;
+  font-family: 'Open Sans';
+  text-align: left;
+  margin-left:10px;
+}
+
+.SwitchContainer {
+  margin: auto;
+}  
+
+@media (min-width: 550px) {
+    .TaskOptions {
+        margin-top: 35px;
+    }
+
+    .HideCompletedContainer {
+      margin: auto;
+      display: flex;
+    }
+
+    .HideCompletedContainer p {
+      margin-left: 15%;
+    }
+
+    .TaskOptionsListContainer {
+        margin: 15px;
+        height: 60px;
+        display: flex;
+        width: 100%;
+
+    }
+
+    .DropdownMain-root {
+      position: relative;
+      font-size: 20px;
+      font-family: 'Open Sans';
+      font-weight: 600;
+      text-align: left;
+      width: 40%;
+  }
+
+  .HideCompletedContainer p {
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    margin-left: auto;
+  }
+
+    .ListContainer2 {
+      margin: 15px;
+      height: 60px;
+  }
+
+    .Dropdown-control {
+      padding: 17px 30px 16px 20px;
+    }
+
+    .Dropdown-arrow {
+      right: 15px;
+      top: 27px;
+    }
+}
+
+@media (min-width: 900px) {
+    .TaskOptions {
+        margin-top: 60px;
+    }
+
+    .TaskOptionsListContainer {
+        margin: 20px;
+        height: 60px;
+
+    }
+
+    .ListContainer2 {
+      margin: 20px;
+      height: 60px;
+  }
+}

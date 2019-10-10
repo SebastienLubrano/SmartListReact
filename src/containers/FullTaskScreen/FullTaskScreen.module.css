@@ -1,0 +1,23 @@
+.FullTaskScreen {
+    align-self: center;
+    text-align: left;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    z-index: 10;
+}
+
+.FullTaskScreenBack {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+@media (min-width: 549px) {
+    .FullTaskScreen {
+        margin-top: 80px;
+    }
+}

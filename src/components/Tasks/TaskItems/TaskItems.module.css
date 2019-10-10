@@ -1,0 +1,19 @@
+.TaskItems {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 550px) {
+    .TaskItems {
+        margin-top: 15px;
+        margin-bottom: 35px;
+    }
+}
+
+@media (min-width: 900px) {
+    .TaskItems {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+}

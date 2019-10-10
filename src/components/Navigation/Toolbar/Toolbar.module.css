@@ -1,0 +1,57 @@
+.Toolbar {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+    z-index: 90;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+}
+
+.BackButtonContainer {
+    background-color: transparent;
+    border: none;
+}
+
+.Auth {
+    background-color: #07689F;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.50);
+}
+
+.Auth p {
+    color: white;
+}
+
+.NotAuth {
+    background-color: #07689F;
+    box-shadow: 0;
+}
+
+.NotAuth p {
+    color: white;
+}
+
+.Toolbar nav {
+    height: 100%;
+}
+
+@media (max-width: 549px) {
+    .DesktopOnly {
+        display: none;
+    }
+
+}
+
+@media (min-width: 549px) {
+    .Toolbar {
+        height: 80px;
+        padding: 0 20px;
+    }
+}

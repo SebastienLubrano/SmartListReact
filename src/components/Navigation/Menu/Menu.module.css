@@ -1,0 +1,30 @@
+.Menu {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Menu div {
+    width: 90%;
+    height: 4px;
+}
+
+.Auth div {
+    background-color: white;
+}
+
+.NotAuth div {
+    background-color: #FF755E;
+}
+
+@media (min-width: 550px) {
+    .Menu {
+        display: none;
+    }
+}

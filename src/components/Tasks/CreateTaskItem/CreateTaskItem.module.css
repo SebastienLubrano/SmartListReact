@@ -1,0 +1,106 @@
+.CreateTaskItemBox {
+    background: #EEF0F1;
+    border: 1px solid #07689F;
+    border-radius: 10px;
+    height: auto;
+    width: 80%;
+    max-width: 500px;
+    align-self: center;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px rgba(0,0,0,0.5);
+    display: block;
+    height: auto;
+    overflow: visible;
+}
+
+.CreateTaskItem {
+    height: auto;
+    margin: 15px;
+    width: 100%;
+    align-self: center;
+    display: flex;
+    height: auto;
+    overflow: visible;
+    border: 0;
+    border-radius: 10px;
+}
+
+.CreateTaskItem button {
+    border: none;
+    background: transparent;
+    margin: 0;
+    margin-right: 15px;
+    width: auto;
+    align-self: center;
+    padding: 0;
+    height:80%;
+}
+
+.TaskNameP {
+    height: auto;
+    margin: auto;
+    margin-right: 0;
+    margin-left: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #6E6E6E;
+    align-content: center;
+    width: 70%;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Open Sans';
+    resize: none;
+    vertical-align: baseline;
+}
+
+
+
+.PlusIcon {
+    border-radius: 10px;
+    border: none;
+    background-color: #EEF0F1;
+    height: 100%;
+}
+
+.TaskNameP::placeholder {
+    color: #FF7E67;
+}
+
+@media (min-width: 400px) {
+    .TaskNameP {
+        width: 75%;
+    }
+}
+
+
+
+@media (min-width: 550px) {
+    .CreateTaskItemBox {
+        border: 2px solid #07689F;
+    }
+
+
+    .CreateTaskItem {
+        margin: 20px;
+    }
+
+    .TaskNameP {
+        font-size: 20px;
+    }
+
+    .CreateTaskItem a {
+        width: 82%;
+    }
+}
+
+
+@media (min-width: 900px) {
+
+    .TaskNameP {
+        font-size: 21px;
+    }
+}

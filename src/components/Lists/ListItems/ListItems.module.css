@@ -1,0 +1,19 @@
+.ListItems {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 550px) {
+    .ListItems {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+}
+
+@media (min-width: 900px) {
+    .ListItems {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,94 @@
+.SignUpScreen {
+    width: 100%;
+    height: 100%;
+    background-color: #07689F;
+    display: inline-block;
+}
+
+.Box {
+    background: #EEF0F1;
+    border: 1px solid #979797;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.50);
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    display: block;
+    height: auto;
+    overflow: visible;
+    text-align: center;
+}
+
+.GoogleSignIn {
+    background: #EEF0F1;
+    border: 1px solid #979797;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.50);
+    border-radius: 5px;
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    height: 60px;
+    min-width: 250px;
+    max-width: 400px;
+}
+
+p.TitleArea {
+    color: #444444;
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+    margin-top: 20px;
+}
+
+p.ErrorP {
+    color: #DC2E36;
+    font-size: 14px;
+    font-weight: 500;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Form {
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    display: flexbox;
+    width: 70%;
+}
+
+.Form label {
+    margin: 0;
+    align-self: auto;
+}
+
+@media (min-width: 549px) {
+    .Box {
+        margin-top: 40px;
+    }
+
+    p.TitleArea {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    p.ErrorP {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 900px) {
+    .Box {
+        margin-top: 50px;
+    }
+
+    p.TitleArea {
+        font-size: 28px;
+        margin-top: 35px;
+    }
+
+    p.ErrorP {
+        font-size: 18px;
+    }
+}

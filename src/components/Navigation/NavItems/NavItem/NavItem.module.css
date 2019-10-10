@@ -1,0 +1,71 @@
+.NavItem {
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    vertical-align: baseline;
+    padding-left: 35px;
+    padding-bottom: 15px;
+}
+
+.NavItem a {
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    color: #444444;
+    font-size: 20px;
+    vertical-align: baseline;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.Auth a:hover,
+.Auth a:active,
+.Auth a.active {
+    color: #07689F;
+}
+
+.NotAuth a:hover,
+.NotAuth a:active,
+.NotAuth a.active {
+    color: #FF755E;
+}
+
+@media (min-width: 550px) {
+    .NavItem {
+        margin: 0;
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-items: center;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .NavItem a {
+        height: 100%;
+        padding: 28px 20px;
+    }
+
+    .Auth a {
+        color: #A3A3A3;
+    }
+
+    .NotAuth a {
+        color: white;
+    }
+
+    .Auth a:hover,
+    .Auth a:active,
+    .Auth a.active {
+        color: white;
+    }
+
+    .NotAuth a:hover,
+    .NotAuth a:active,
+    .NotAuth a.active {
+        color: #FF755E;
+    }
+}

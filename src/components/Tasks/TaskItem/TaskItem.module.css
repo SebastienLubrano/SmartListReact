@@ -1,0 +1,145 @@
+.TaskItemBox {
+    background: #EEF0F1;
+    border: 1px solid #07689F;
+    border-radius: 10px;
+    height: auto;
+    width: 80%;
+    max-width: 500px;
+    align-self: center;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px rgba(0,0,0,0.5);
+    display: block;
+    height: auto;
+    overflow: visible;
+}
+
+.TaskItem {
+    height: auto;
+    margin: 0px 15px 0px 15px;
+    padding: 0px;
+    width: 100%;
+    align-self: center;
+    display: flex;
+    height: auto;
+    overflow: visible;
+    border: 0;
+    border-radius: 10px;
+}
+
+.TaskItem a {
+    text-decoration: none;
+    margin: 0;
+    align-content: center;
+    padding: 15px 0px 5px 0px;
+    margin-right: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #444444;
+    display: inline-flex;
+    width: 70%;
+    opacity: 1;
+}
+
+.TaskItem textarea {
+    font-weight: 600;
+    font-size: 18px;
+    color: #444444;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    font-family: 'Open Sans';
+    margin: auto;
+    padding: 0px;
+    margin-left: 0px;
+    opacity: 1;
+    resize: none;
+    -webkit-text-fill-color: #444444;
+}
+
+.TaskItem textarea:disabled {
+    color: #444444;
+    text-decoration: none;
+    opacity: 1;
+}
+
+
+
+.TaskItem button {
+    border: none;
+    background-color: transparent;
+    height: auto;
+    padding: 0;
+    margin: auto 0 auto 0;
+}
+
+.DueDateArea {
+    padding: 0px 15px 15px 15px;
+}
+
+.DueDateArea p {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+p.Upcoming {
+    color: #FF7E67;
+}
+
+p.Overdue {
+    color: #DA3A3B;
+}
+
+@media (min-width: 350px) {
+    .TaskItem a {
+        width: 75%;
+        padding: 20px 0px 20px 0px;
+    }
+}
+
+
+@media (min-width: 550px) {
+    .TaskItemBox {
+        border: 2px solid #07689F;
+    }
+
+    .TaskItem {
+        margin: 0px 20px 0px 20px;
+    }
+
+    .DueDateArea {
+        padding: 0px 20px 20px 20px;
+    }
+
+    .TaskItem textarea {
+        font-size: 20px;
+    }
+
+    .TaskItem a {
+        width: 82%;
+        padding: 20px 0px 20px 0px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 900px) {
+    .TaskItem {
+        margin: 0px 25px 0px 25px;
+    }
+
+    .TaskItem textarea {
+        font-size: 21px;
+    }
+
+    .DueDateArea {
+        padding:  0px 25px 25px 25px;
+    }
+
+    .TaskItem a {
+        width: 82%;
+        padding: 25px 0px 25px 0px;
+        margin-right: 15px;
+    }
+}
